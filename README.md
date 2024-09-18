@@ -9,6 +9,13 @@
 - Плата разработки ESP32-C6 SuperMini (https://aliexpress.ru/item/1005006917431375.html?sku_id=12000038720440763&spm=a2g2w.productlist.search_results.13.68fb4af2fHbNJE)
 - Visual Studio Code (с установленными расширениями)
 
+## Картинка
+
+### Отладочная плата со встроенным uart-usb преобразователем. 
+
+![Режим 1](images/Pic_1.png)
+
+
 ## Сборка и прошивка
 
 1. Установите ESP-IDF, следуя инструкциям на официальном сайте: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html
