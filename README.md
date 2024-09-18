@@ -24,23 +24,23 @@
 sh git clone https://github.com/bauman-robotics/esp32c3_test.git cd esp32c3_test
 4. Откройте проект в Visual Studio Code:
 
-sh code .  
+sh code .
 
 5. Настройте проект:
 
-sh idf.py menuconfig  
+sh idf.py menuconfig
 
 6. Соберите проект:
 
-sh idf.py build  
+sh idf.py build
 
 7. Прошейте микроконтроллер:
 
-sh idf.py flash  
+sh idf.py flash
 
 8. Мониторинг последовательного порта:
 
-sh idf.py monitor  
+sh idf.py monitor
 
 ### Минимальная установка для прошивки бинарного файла
 
