@@ -1,0 +1,32 @@
+// {
+//   "version": "0.2.0",
+//   "configurations": [
+//     {
+//       "type": "gdbtarget",
+//       "request": "attach",
+//       "name": "Eclipse CDT GDB Adapter"
+//     },
+//     {
+//       "type": "espidf",
+//       "name": "Launch",
+//       "request": "launch"
+//     }
+//   ]
+// }
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "espidf",
+      "name": "Launch",
+      "request": "launch",
+      // "program": "${workspaceFolder}/build/your_project.elf",
+      // "monitorTool": "miniterm",
+      // "monitorBaudRate": 115200,
+      // "openOcdConfig": [
+      //   "board/esp32-wrover.cfg"
+      // ]
+    }
+  ]
+}
